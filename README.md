@@ -4,5 +4,6 @@ The repository contains source code and studies data for our paper submission to
 
 
 Before runing the scripts, please download ratings_latest.csv file from the link given below. Add this file into to the path ../CRB-CRS/data/recommenders_item_data/
-
 https://drive.google.com/drive/folders/1VIDW7gSt7o9tllGTbbA4LnBRUgnlOPUh
+
+You may also download the item-ratings data directly from the MovieLens link https://grouplens.org/datasets/movielens/25m/
