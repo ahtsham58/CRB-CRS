@@ -1,5 +1,5 @@
 # CRB-CRS
-# "Conversational Recommendation based on End-to-end Learning: How Far Are We?"
+# "Towards Retrieval-based Conversational Recommendation"
 The repository contains source code and studies data for our paper submission to JIS.
 
 
