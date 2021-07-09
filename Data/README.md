@@ -17,7 +17,7 @@ The description of the content in this directory is as follows.
 
 2.	The file named ‘Invalid Trials.xlsx’ contains all the cases where the participants failed attention. Note that each user has 10 dialog situations in this particular file. 
 
-3.	The file named ‘Discarded Cases.xlsx’ contains those cases which we considered inconsistent as reported in the manuscript. There are 8 cases, thereby, 72 (9x8) dialog situations in this file. The specific rules for discarding such cases (as mentioned in the paper) are also mentioned in the second tab of the same file.
+3.	The file named ‘Discarded Cases.xlsx’ contains those cases which we considered inconsistent as reported in the manuscript. There are 8 cases, thereby, 72 (9x8) dialog situations in this file. The specific rules for discarding such cases (as mentioned in the paper) are also reported in the second tab of the same file.
 
 4.	Then we have another file named ‘Valid Trials.xlsx’, which contains data of only valid cases. The valid cases fulfill the following criteria as reported in the manuscript. 
 
