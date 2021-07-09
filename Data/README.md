@@ -4,9 +4,7 @@
 This folder contains additional material for the paper titled **“Towards Retrieval-based Conversational Recommendation”**
 
 Under the ***'Data'*** directory, we have two main directories at the root level. 
-
 The first named ‘Additional Analyses’ contains the data and results for our ***additional analyses***. 
-
 The second named 'Main Results 5.1' contains the data and compiled results of our study mentioned in Section 5.1.
 
 
