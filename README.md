@@ -10,7 +10,7 @@ We have two main directories at the root level.
 
 
 
-Before running the scripts in the directory, named 'CRB-CRS Code', please download the ratings data, i.e., 'ratings_latest.csv' file from [this link](https://drive.google.com/drive/folders/1VIDW7gSt7o9tllGTbbA4LnBRUgnlOPUh). Add this file to the path ../CRB-CRS/data/recommenders_item_data/
+Before running the scripts in the directory, named 'CRB-CRS Code', please download the ratings data, i.e., 'ratings_latest.csv' file, from [this link](https://drive.google.com/drive/folders/1VIDW7gSt7o9tllGTbbA4LnBRUgnlOPUh). Add this file to the path ../CRB-CRS/data/recommenders_item_data/
 
 
 
