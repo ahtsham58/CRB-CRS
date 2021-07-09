@@ -5,7 +5,7 @@ We have two main directories at the root level.
 
 1. The first named ‘CRB-CRS Code’ contains the complete Python source code for our own developed retrieval-based recommender system. 
 
-2. The second directory, named ‘Data’ includes the data and results for the user study and additional analyses reported in the manuscript.
+2. The second directory, named ‘Data’ includes the data and results for the online study and additional analyses reported in the manuscript.
 
 
 
