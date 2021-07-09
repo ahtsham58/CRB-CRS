@@ -14,7 +14,7 @@ We have two main directories at the root level. The first named ‘src’ contai
 
 3. The file named ‘RetrieveCandidatesByHistory.py’ is used to train the TF-IDF model and retrieve candidate responses. The approaches for outliers pruning and ranking of the retrieved set of candidate responses are also implemented in the same file.
 
-4. The file named ‘Cacululate_MLE_Probs.py’ is used by the script in the file ‘RetrieveCandidatesByHistory’ to calculate the bigram probabilities in our ranking technique.
+4. The file named ‘Cacululate_MLE_Probs.py’ is used by the script in the file ‘RetrieveCandidatesByHistory.py’ to calculate the bigram probabilities in our ranking technique.
 
 5. The file named ‘IntegrateRecommendations.py’ is used for the purpose of the integration of both movies recommendation and metadata (genre, actor, etc.) information. 
 
