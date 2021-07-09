@@ -18,7 +18,7 @@ We have two main directories at the root level. The first named ‘src’ contai
 
 5. The file named ‘IntegrateRecommendations.py’ is used for the purpose of the integration of both movies recommendation and metadata (genre, actor, etc.) information. 
 
-6. The remaining three .py files starting from ‘Recommender’ are recommender approaches used to compute and integrate recommendations in the retrieved responses. Note that these files are used by the script in the file 'IntegrateRecommendations.py'.
+6. The remaining three .py files starting from **‘Recommender’** are recommender approaches used to compute and integrate recommendations in the retrieved responses. Note that these files are used by the script in the file 'IntegrateRecommendations.py'.
 
 7. Before running the scripts, please run ***‘Requirementes.txt’*** which includes all the Python libraries to install in order to reproduce the results.
 
