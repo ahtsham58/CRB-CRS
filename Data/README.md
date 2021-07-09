@@ -58,6 +58,6 @@ There are in total three analyses that we reported in the paper. The details of 
 
 ### 3.  Analysis 5.2.3
 
-The file named 'Analysis 5.2.3.xlsx' contains the data for our analysis regarding different ways of preference expression the users used to seek recommendations.
+The file named 'Analysis 5.2.3.xlsx' contains the results of our analysis regarding different ways of preference expression the users used to seek recommendations.
    
    
