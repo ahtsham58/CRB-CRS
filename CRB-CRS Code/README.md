@@ -1,7 +1,7 @@
 
 # CRB-CRS Source Code
 
-We have two main directories at the root level. The first named ‘src’ contains the complete Python source code for CRB-CRS. The second directory, named ‘data,’ contains the data for both movies recommendation and dialogs.
+We have two main directories at the root level. The first named ‘src’ contains the complete Python source code for CRB-CRS. The second directory, named ‘data’ contains the data for both movies recommendation and dialogs.
 
 ## Installation
 
