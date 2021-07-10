@@ -22,7 +22,7 @@ We have two main directories at the root level. The first named ‘src’ contai
 
 7. Before running the scripts, please run ***‘Requirementes.txt’*** which includes all the Python libraries to install in order to reproduce the results.
 
-**The description of the content in the ‘data directory is as follows.**
+**The description of the content in the 'data' directory is as follows.**
 
 There are three subdirectories under this directory named ‘DialogData’ and ‘RecommendersItemData’ and ‘redial_dataset’.
 
