@@ -26,7 +26,7 @@ We have two main directories at the root level. The first named ‘src’ contai
 
 There are three subdirectories under this directory named ‘DialogData’ and ‘RecommendersItemData’ and ‘redial_dataset’.
 
-  1. 	Under the ‘DialogData’ directory, we have all the dialogs’ data files used or exported using python scripts, as previously mentioned. This data is used to train the model and retrieve candidate responses.
+  1. 	Under the ‘DialogData’ directory, we have all the dialogs’ data files used or exported using Python scripts, as previously mentioned. This data is used to train the model and retrieve candidate responses.
 
   2. 	Under the ‘RecommendersItemData’ directory, we have the MovieLens rating dataset, which is used to compute recommendations and integrate metadata information (e.g., genres, actors, etc.) in the retrieved responses. For the purpose of the model’s offline initialization, we converted the original MovieLens data into further files.
 
