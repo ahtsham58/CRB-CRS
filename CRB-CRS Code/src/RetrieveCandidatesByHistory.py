@@ -22,7 +22,7 @@ from nltk.util import ngrams
 from collections import Counter
 from src.Cacululate_MLE_Probs import Cacululate_MLE_Probs
 
-class RetrieveCandidatesByHistory:
+class RetrieveCandidateResponses_TFIDF:
     def __init__(self):
         self.PATH = os.path.dirname(os.path.abspath(__file__))
         self.ROOT_DIR_PATH = os.path.abspath(os.path.dirname(self.PATH))
@@ -291,13 +291,7 @@ class RetrieveCandidatesByHistory:
     this function train a bi-gram model on ground_truth responses
     to calculate fluency score for candidates 
     """
-    def rank_candidates_by_fluency_score(self, seeker_tokens, candidates_list):
-        only_response_list= []
-        for index, candidate, in enumerate(candidates_list):
-            only_response_list.append(candidate[0]) # candidate
-            only_response_list.append(candidate[1]) #score
-
-        unique_response_list = list(set(only_response_list))
+    def rank_candidates_by_fluency_score(self, seeker_tokens, unique_response_list):
         ranked_response_list = []
         for index, candid, in enumerate(unique_response_list):
             resp_score_list_temp = []
@@ -309,6 +303,7 @@ class RetrieveCandidatesByHistory:
                 self.MLE = Cacululate_MLE_Probs(2, corpus_file=None, cache=True)
             probability = self.MLE.sentence_probability(response, n=2)
             avg_score = probability/len(bigrams)
+            print(avg_score)
             movie_context = ['movie','movies', 'movieid']
             chit_chat_tokens= ['thanks', 'bye', 'goodbye', 'thank']
             common_tokens_sk = list(set(seeker_tokens).intersection(movie_context))
@@ -362,15 +357,19 @@ class RetrieveCandidatesByHistory:
             ## sort list based on scores after all the pairswise scores are calculated
             score_pair_list.sort(key= lambda x: x[2], reverse= True)
             valid_candidate_pairs = score_pair_list[:valid_nb_pairs] # retaine only valid nb of pairs with scores
-        return valid_candidate_pairs
+            only_response_list= []
+            for index, candidate, in enumerate(valid_candidate_pairs):
+                only_response_list.append(candidate[0]) # candidate
+                only_response_list.append(candidate[1]) #score
+            unique_response_list = list(set(only_response_list))
+        return unique_response_list
 
 
 
 if __name__ == '__main__':
-
-    obj = RetrieveCandidatesByHistory()
+    obj = RetrieveCandidateResponses_TFIDF()
     dialogs =obj.process_dialogs(5) # parameter: nb of candidates to retrieve from retrieval model
-    with open(obj.DATA_path+'Retrieved_dialogs_by_MLE3.txt', 'w', encoding='utf-8') as filehandle:
+    with open(obj.DATA_path+'Retrieved_dialogs_test.txt', 'w', encoding='utf-8') as filehandle:
         for line in dialogs:
             filehandle.writelines("%s\n" % line)
     print('execution finshed')
