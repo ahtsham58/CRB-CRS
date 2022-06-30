@@ -28,3 +28,18 @@ You may also download ratings data directly from the [MovieLens website](https:/
   publisher={Elsevier}
 }
 ```
+
+$ tree -d
+
+data
+├── cats_vs_dogs
+│   ├── test_cat_dog
+│   ├── testing
+│   │   ├── cats
+│   │   └── dogs
+│   └── training
+│       ├── cats
+│       └── dogs
+└── PetImages
+    ├── Cat
+    └── Dog
